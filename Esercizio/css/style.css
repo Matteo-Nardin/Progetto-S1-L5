@@ -20,18 +20,17 @@ h3 {
 
 /* HEADER */
 header {
-    height: 200px;
+    height: 100px;
     background-color: black;
     text-align: center;
 }
 
 header img {
-    width: 150px;
+    height: 50px;
+    margin-top: 20px;
 }
 
 #corso {
-    text-align: center;
-
     background-image: url(../images/banner.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -43,7 +42,7 @@ header img {
     color: white;
     background-color: red;
     border: 0px;
-    padding: 10px;
+    padding: 10px 25px;
     border-radius: 10px;
 }
 
@@ -64,6 +63,11 @@ section {
     color: white;
     text-align: center;
     padding: 10px;
+}
+
+section h2{
+    font-size: 2rem;
+    font-weight: 900;
 }
 
 #mario {
